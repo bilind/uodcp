@@ -33,6 +33,8 @@ Contents:
     api
 
 
+.. image:: static/dashboard.jpg
+
 
 How to add 
 
