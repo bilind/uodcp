@@ -12,8 +12,6 @@ UoD Control Panel Documentation
 
 .. image:: static/dashboard.jpg
 
-  sample view
-
 Contents:
 
 .. toctree::
