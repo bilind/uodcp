@@ -4,11 +4,13 @@
    contain the root `toctree` directive.
 
 =================================================
-Demo Docs
+UoD Control Panel
 =================================================
 
 :Page Status: Incomplete
 :Last Reviewed: 2016-09-28
+
+.. image:: static/dashboard.jpg
 
 Contents:
 
@@ -31,9 +33,6 @@ Contents:
 
     long
     api
-
-
-.. image:: static/dashboard.jpg
 
 
 How to add 
