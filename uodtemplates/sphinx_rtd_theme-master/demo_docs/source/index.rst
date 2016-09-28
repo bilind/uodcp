@@ -4,7 +4,7 @@
    contain the root `toctree` directive.
 
 =================================================
-UoD Control Panel
+UoD Control Panel Documentation
 =================================================
 
 :Page Status: Incomplete
