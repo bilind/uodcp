@@ -11,6 +11,7 @@ UoD Control Panel Documentation
 :Last Reviewed: 2016-09-28
 
 .. image:: static/dashboard.jpg
+
   sample view
 
 Contents:
