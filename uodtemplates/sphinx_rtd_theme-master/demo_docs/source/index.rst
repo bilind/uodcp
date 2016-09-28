@@ -18,6 +18,7 @@ Contents:
 
     demo
     list
+    mytest
 
 .. toctree::
     :titlesonly:
@@ -31,6 +32,9 @@ Contents:
     long
     api
 
+
+
+How to add 
 
 This is a paragraph.  It's quite
 short.
