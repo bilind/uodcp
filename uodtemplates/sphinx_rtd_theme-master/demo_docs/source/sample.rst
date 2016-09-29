@@ -18,7 +18,7 @@ Contents:
     :maxdepth: 2
     :caption: Structure
 
-    structure
+    demo
     list
     pages
 
