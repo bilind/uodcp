@@ -16,6 +16,6 @@ Contents:
 
 .. toctree::
     :maxdepth: 2
-    :caption: Structure
+    :caption: Principles
 
     structure
