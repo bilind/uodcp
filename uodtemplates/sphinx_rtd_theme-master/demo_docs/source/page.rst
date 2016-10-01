@@ -4,6 +4,8 @@ Page
 
 Types
 =====
+	
+	Pages are classified to meet different aspects. Types ending with "list" are just containers for the types with the preceding word. For example, ``Activity List`` page has to be added as a parent of the subsequent ``Activity`` pages. 
 
     +-----------------------------+--------------------------------------------+---------------------------------------------+
     |   Type                      |     Allowed Parent Type                    |      Allowed Child Type                     |
@@ -22,58 +24,69 @@ Types
     +-----------------------------+--------------------------------------------+---------------------------------------------+
     | Directorate List            | [a]_                                       | Directorate                                 | 
     +-----------------------------+--------------------------------------------+---------------------------------------------+
-    | Directorate                 | Directorate List                           | [c]_                                        | 
+    | Directorate                 | Directorate List                           | [c]_ [o]_ excpet ``College``                | 
     +-----------------------------+--------------------------------------------+---------------------------------------------+
+    | Event List                  | [a]_                                       | Event                                       | 
+    +-----------------------------+--------------------------------------------+---------------------------------------------+
+    | Event                       | Event List                                 | [c]_                                        | 
+    +-----------------------------+--------------------------------------------+---------------------------------------------+
+    | Form Page                   | [a]_                                       | [c]_                                        | 
+    +-----------------------------+--------------------------------------------+---------------------------------------------+
+    | News List                   | [a]_                                       | News                                        | 
+    +-----------------------------+--------------------------------------------+---------------------------------------------+
+    | News                        | News List                                  | [c]_                                        | 
+    +-----------------------------+--------------------------------------------+---------------------------------------------+
+    | Office List                 | [a]_                                       | Office                                      | 
+    +-----------------------------+--------------------------------------------+---------------------------------------------+
+    | Office                      | Office List                                | [c]_                                        | 
+    +-----------------------------+--------------------------------------------+---------------------------------------------+
+    | Page                        | [a]_                                       | [c]_                                        | 
+    +-----------------------------+--------------------------------------------+---------------------------------------------+
+    | Project List                | [a]_                                       | Project                                     | 
+    +-----------------------------+--------------------------------------------+---------------------------------------------+
+    | Project                     | Project List                               | [c]_                                        | 
+    +-----------------------------+--------------------------------------------+---------------------------------------------+
+    | Research List               | [a]_                                       | Research                                    | 
+    +-----------------------------+--------------------------------------------+---------------------------------------------+
+    | Research                    | Research List                              | [c]_                                        | 
+    +-----------------------------+--------------------------------------------+---------------------------------------------+
+    | Scholarship List            | [a]_                                       | Scholarship                                 | 
+    +-----------------------------+--------------------------------------------+---------------------------------------------+
+    | Sccholarship                | Scholarship List                           | [c]_                                        | 
+    +-----------------------------+--------------------------------------------+---------------------------------------------+
+    | Workshop List               | [a]_                                       | Workshop                                    | 
+    +-----------------------------+--------------------------------------------+---------------------------------------------+
+    | Workshop                    | Workshop List                              | [c]_                                        | 
+    +-----------------------------+--------------------------------------------+---------------------------------------------+
+    | Seminar List                | [a]_                                       | Seminar                                     | 
+    +-----------------------------+--------------------------------------------+---------------------------------------------+
+    | Seminar                     | Seminar List                               | [c]_                                        | 
+    +-----------------------------+--------------------------------------------+---------------------------------------------+
+    | Unit List                   | [a]_                                       | Unit                                        | 
+    +-----------------------------+--------------------------------------------+---------------------------------------------+
+    | Unit                        | Unit List                                  | [c]_                                        | 
+    +-----------------------------+--------------------------------------------+---------------------------------------------+
+    | College List                | [l]_                                       | College                                     | 
+    +-----------------------------+--------------------------------------------+---------------------------------------------+
+    | College                     | College List                               | [c]_                                        | 
+    +-----------------------------+--------------------------------------------+---------------------------------------------+
+    | Center List                 | [o]_ excpet ``Center``                     | Center                                      | 
+    +-----------------------------+--------------------------------------------+---------------------------------------------+
+    | Center                      | Center List                                | [c]_                                        | 
+    +-----------------------------+--------------------------------------------+---------------------------------------------+
+
+
 
     .. [a] **Any type**.
 
     .. [-] **None**.
 
-    .. [c] **Common types**: Activity, Announcement, Contatc Form Page, Contact Page, Event List, Form Page, News List, Page, Project List, Research List, Scholarship List, Seminar List, Workshop List.
+    .. [c] **Common Types**: Activity, Announcement, Contatc Form Page, Contact Page, Event List, Form Page, News List, Page, Project List, Research List, Scholarship List, Seminar List, Workshop List.
 
+    .. [o] **Spatial Types**: Office, College, Unit, Center, Directorate
 
-	* Event List
-	* Event
-	* Form Page
-	* News List
-	* News
-	* Office List
-	* Office
-	* Page
-	* Project List
-	* Project
-	* Research List
-	* Research
-	* Scholarship List
-	* Scholarship
-	* Seminar List
-	* Seminar
-	* Unit List
-	* Unit
-	* Workshop List
-	* Workshop
-	* College List [Academic]
-	* College
-	* Center List [college, unit, directoare, office]
-	* Center
-	* Department List (Academic)
-	* Department (Academic) 
-	* Department List (Administrative) [directorate, unit, office, center, college]
-	* Department (Administrative)
-	* Research Center List
-	* Research Center
-	* Research List
-	* Research
-	* Staff List (Administrative) [unit, directorate, office, college, department (academic), department (administrative)]
-	* Member (Administrative)
-	* Staff List (Academic) [department (academic), ]
-	* Member (Academic)
-	* Unit List
-	* Unit
-	* Course List [department (academic)]
-	* Stage List [course list]
-	* Stage [stage list]
-	* Course [stage]
+    .. [l] **LOCKED**
+
 
 
 Fields
@@ -88,6 +101,7 @@ Content
 	The English (EN) title is required, without it the page can not be created. ``Title`` is also equired for auto-generating ``Slug`` and HTML ``Page title``.
 
 	.. image:: static/page_content_title.jpg
+		:target: static/page_content_title.jpg
 
 .. tip::
     If you don't have the English translation of your article title, just paste in the available one (Arabic or Kurdish).
