@@ -25,9 +25,9 @@ Types
     | Directorate                 | Directorate List                           | [c]_                                        | 
     +-----------------------------+--------------------------------------------+---------------------------------------------+
 
-    .. [a] Any type.
+    .. [a] **Any type**.
 
-    .. [-] None.
+    .. [-] **None**.
 
     .. [c] **Common types**: Activity, Announcement, Contatc Form Page, Contact Page, Event List, Form Page, News List, Page, Project List, Research List, Scholarship List, Seminar List, Workshop List.
 
