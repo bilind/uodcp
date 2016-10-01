@@ -101,7 +101,7 @@ Content
 ``Title``
 `````````
 
-	The English (EN) title is required, without it the page can not be created. ``Title`` is also equired for auto-generating ``Slug`` and HTML ``Page title``.
+	The ``title`` is required (at least in English (EN)), without it the page can not be created. ``Title`` is also equired for auto-generating the ``Slug`` and the HTML ``Page title``.
 
 	.. image:: static/page_content_title.jpg
 		:target: static/page_content_title.jpg
@@ -116,7 +116,7 @@ Content
 ``Body``
 ````````
 
-	The page content. Text, images, videos and documents can be inserted.
+	The page content can have text, images, videos and documents.
 
 	.. image:: static/page_content_body.jpg
 
@@ -139,7 +139,7 @@ Content
 ``Related Links``
 `````````````````
 
-	Related links you may find it useful for the reader. You may add as much as you want.
+	You may find it useful sometimes to add some related content links for the reader. You can add as much as you want.
 
 	.. image:: static/page_content_relatedlinks.jpg
 
