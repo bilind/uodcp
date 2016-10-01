@@ -5,26 +5,33 @@ Page
 Types
 =====
 
-    +-----------------------------+----------------------------------------+
-    |   Type                      |     Possible Direct Parent Type        |
-    +=============================+========================================+
-    | Activity List               | Any type                               |
-    +-----------------------------+----------------------------------------+
-    | Activity                    | Activity List                          |
-    +-----------------------------+----------------------------------------+
-    | Announcement List           | Any type                               |
-    +-----------------------------+----------------------------------------+
-    | Announcement                | Announcement List                      |
-    +-----------------------------+----------------------------------------+
+    +-----------------------------+--------------------------------------------+---------------------------------------------+
+    |   Type                      |     Allowed Parent Type                    |      Allowed Child Type                     |
+    +=============================+============================================+=============================================+
+    | Activity List               | [*]_                                       | Activity                                    |
+    +-----------------------------+--------------------------------------------+---------------------------------------------+
+    | Activity                    | Activity List                              | [c]_                                        | 
+    +-----------------------------+--------------------------------------------+---------------------------------------------+
+    | Announcement List           | [*]_                                       | Annoucement                                 |
+    +-----------------------------+--------------------------------------------+---------------------------------------------+
+    | Announcement                | Announcement List                          | [c]_                                        | 
+    +-----------------------------+--------------------------------------------+---------------------------------------------+
+    | Contatc Form Page           | [*]_                                       | [c]_                                        | 
+    +-----------------------------+--------------------------------------------+---------------------------------------------+
+    | Contatc Page                | [*]_                                       | [c]_                                        | 
+    +-----------------------------+--------------------------------------------+---------------------------------------------+
+    | Directorate List            | [*]_                                       | Directorate                                 | 
+    +-----------------------------+--------------------------------------------+---------------------------------------------+
+    | Directorate                 | Directorate List                           | [c]_                                        | 
+    +-----------------------------+--------------------------------------------+---------------------------------------------+
 
-	* Activity List
-	* Activity
-	* Announcement List
-	* Announcement
-	* Contact Form Page
-	* Contact Page
-	* Directorate List
-	* Directorate
+    .. [*] Any type.
+
+    .. [-] None.
+
+    .. [c] Common types: Activity, Announcement, Contatc Form Page, Contact Page, Event List, Form Page, News List, Page, Project List, Research List, Scholarship List, Seminar List, Workshop List
+
+
 	* Event List
 	* Event
 	* Form Page
@@ -83,8 +90,10 @@ Content
 	.. image:: static/page_content_title.jpg
 
 .. tip::
-    If you don't have the English translation for your article title, just paste in the available one (Arabic or Kurdish).
+    If you don't have the English translation of your article title, just paste in the available one (Arabic or Kurdish).
 
+
+----------
 
 
 ``Body``
@@ -94,6 +103,8 @@ Content
 
 	.. image:: static/page_content_body.jpg
 
+
+----------
 
 
 ``Images``
