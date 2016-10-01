@@ -54,3 +54,8 @@ Page Types
 	* Stage List [course list]
 	* Stage [stage list]
 	* Course [stage]
+
+
+Page Fields
+-----------
+

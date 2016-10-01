@@ -20,3 +20,4 @@ Contents:
 
     principles
     page
+    sample
