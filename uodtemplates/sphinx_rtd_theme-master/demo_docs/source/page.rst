@@ -5,7 +5,10 @@ Page
 Types
 =====
 	
-	Pages are classified to meet different aspects. Types ending with "list" are just containers for the types with the preceding word. For example, ``Activity List`` page has to be added as a parent of the subsequent ``Activity`` pages. 
+	Pages are classified into types to meet different aspects. They are:
+
+	.. note::
+		Types ending with "list" are just containers for the types with the preceding word. For example, ``Activity List`` page has to be added as a parent of the subsequent ``Activity`` pages.
 
     +-----------------------------+--------------------------------------------+---------------------------------------------+
     |   Type                      |     Allowed Parent Type                    |      Allowed Child Type                     |
@@ -127,6 +130,18 @@ Content
 	Unlimited number of images can be added to the page. Supported formats are ``.jpg`` and ``.png``. Maximum file size is **10MB**. 
 
 	.. image:: static/page_content_images.jpg
+
+
+
+----------
+
+
+``Related Links``
+`````````````````
+
+	Related links you may find it useful for the reader. You may add as much as you want.
+
+	.. image:: static/page_content_relatedlinks.jpg
 
 
 
