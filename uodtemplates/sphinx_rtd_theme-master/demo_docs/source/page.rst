@@ -14,7 +14,7 @@ Types
     +-----------------------------+----------------------------------------+
     | Announcement List           | Any type                               |
     +-----------------------------+----------------------------------------+
-	| Announcement                | Announcement List                      |
+    | Announcement                | Announcement List                      |
     +-----------------------------+----------------------------------------+
 
 	* Activity List
@@ -74,4 +74,6 @@ Fields
 
 ``Title``
 ---------
-	sdklaklsdasldjl
+	The English (EN) title is required, without it the page can not be created. ``Title`` is also equired to auto-generate the ``Slug`` and the HTML ``Page title``.
+
+	.. image:: static/page_title.jpg
