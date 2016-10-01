@@ -81,13 +81,9 @@ Types
 
 
     .. [a] **Any type**.
-
     .. [-] **None**.
-
     .. [c] **Common Types**: Activity, Announcement, Contatc Form Page, Contact Page, Event List, Form Page, News List, Page, Project List, Research List, Scholarship List, Seminar List, Workshop List.
-
     .. [o] **Spatial Types**: Office, College, Unit, Center, Directorate
-
     .. [l] **LOCKED**
 
 
