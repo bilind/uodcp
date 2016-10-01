@@ -18,4 +18,4 @@ Contents:
     :maxdepth: 2
     :caption: Principles
 
-    structure
+    principles
