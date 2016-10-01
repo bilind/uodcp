@@ -131,6 +131,8 @@ Content
 
 	.. image:: static/page_content_images.jpg
 
+	.. tip::
+		The image can be a link to a page or an external web page. Use ``Link page`` or ``External Link`` for the purpose.
 
 
 ----------
@@ -139,7 +141,7 @@ Content
 ``Related Links``
 `````````````````
 
-	You may find it useful sometimes to add some related content links for the reader. You can add as much as you want.
+	You may find it useful sometimes to add some related content links for the reader. Number of links are unlimited.
 
 	.. image:: static/page_content_relatedlinks.jpg
 
