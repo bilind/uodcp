@@ -8,28 +8,28 @@ Types
     +-----------------------------+--------------------------------------------+---------------------------------------------+
     |   Type                      |     Allowed Parent Type                    |      Allowed Child Type                     |
     +=============================+============================================+=============================================+
-    | Activity List               | [*]_                                       | Activity                                    |
+    | Activity List               | [a]_                                       | Activity                                    |
     +-----------------------------+--------------------------------------------+---------------------------------------------+
     | Activity                    | Activity List                              | [c]_                                        | 
     +-----------------------------+--------------------------------------------+---------------------------------------------+
-    | Announcement List           | [*]_                                       | Annoucement                                 |
+    | Announcement List           | [a]_                                       | Annoucement                                 |
     +-----------------------------+--------------------------------------------+---------------------------------------------+
     | Announcement                | Announcement List                          | [c]_                                        | 
     +-----------------------------+--------------------------------------------+---------------------------------------------+
-    | Contatc Form Page           | [*]_                                       | [c]_                                        | 
+    | Contatc Form Page           | [a]_                                       | [c]_                                        | 
     +-----------------------------+--------------------------------------------+---------------------------------------------+
-    | Contatc Page                | [*]_                                       | [c]_                                        | 
+    | Contatc Page                | [a]_                                       | [c]_                                        | 
     +-----------------------------+--------------------------------------------+---------------------------------------------+
-    | Directorate List            | [*]_                                       | Directorate                                 | 
+    | Directorate List            | [a]_                                       | Directorate                                 | 
     +-----------------------------+--------------------------------------------+---------------------------------------------+
     | Directorate                 | Directorate List                           | [c]_                                        | 
     +-----------------------------+--------------------------------------------+---------------------------------------------+
 
-    .. [*] Any type.
+    .. [a] Any type.
 
     .. [-] None.
 
-    .. [c] Common types: Activity, Announcement, Contatc Form Page, Contact Page, Event List, Form Page, News List, Page, Project List, Research List, Scholarship List, Seminar List, Workshop List
+    .. [c] **Common types**: Activity, Announcement, Contatc Form Page, Contact Page, Event List, Form Page, News List, Page, Project List, Research List, Scholarship List, Seminar List, Workshop List.
 
 
 	* Event List
@@ -110,6 +110,6 @@ Content
 ``Images``
 ``````````
 
-	Unlimited images can be added to the page. Supported formats are ``.jpg`` and ``.png``. Maximum file size is **10MB**. 
+	Unlimited number of images can be added to the page. Supported formats are ``.jpg`` and ``.png``. Maximum file size is **10MB**. 
 
 	.. image:: static/page_content_images.jpg
