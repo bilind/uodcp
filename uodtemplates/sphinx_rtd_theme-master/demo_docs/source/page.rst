@@ -78,15 +78,22 @@ Content
 ``Title``
 `````````
 
-	The English (EN) title is required, without it the page can not be created. ``Title`` is also equired to auto-generate the ``Slug`` and the HTML ``Page title``.
+	The English (EN) title is required, without it the page can not be created. ``Title`` is also equired for auto-generating ``Slug`` and HTML ``Page title``.
 
-	.. image:: static/page_title.jpg
+	.. image:: static/page_content_title.jpg
 
 
 ``Body``
 ````````
 
-	The page contents. You can insert multimedia objects, like images, videos and documents.
+	The page content. You can insert text, images, videos and documents.
 
-	.. image:: static/page_body.jpg
+	.. image:: static/page_content_body.jpg
 
+
+``Images``
+``````````
+
+	Single or multiple images can be uploaded. Supported formats are **``.jpg``** and **``.png``**. Maximum file size is **10MB**. 
+
+	.. image:: static/page_content_images.jpg
