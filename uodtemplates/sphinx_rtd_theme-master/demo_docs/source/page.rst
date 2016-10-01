@@ -76,6 +76,7 @@ Content
 -------
 
 	``Title``
+	---------
 
 		The English (EN) title is required, without it the page can not be created. ``Title`` is also equired to auto-generate the ``Slug`` and the HTML ``Page title``.
 
