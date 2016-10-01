@@ -127,7 +127,7 @@ Content
 
 	.. image:: static/page_content_images.jpg
 
-
+|
 	.. tip::
 		Images can be links to pages or external web pages. Use ``Link page`` or ``External Link`` for the purpose.
 
