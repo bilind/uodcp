@@ -27,7 +27,7 @@ Types
     +-----------------------------+--------------------------------------------+---------------------------------------------+
     | Directorate List            | [a]_                                       | Directorate                                 | 
     +-----------------------------+--------------------------------------------+---------------------------------------------+
-    | Directorate                 | Directorate List                           | [c]_ [o]_ excpet ``College``                | 
+    | Directorate                 | Directorate List                           | [c]_ [s]_ excpet ``College``                | 
     +-----------------------------+--------------------------------------------+---------------------------------------------+
     | Event List                  | [a]_                                       | Event                                       | 
     +-----------------------------+--------------------------------------------+---------------------------------------------+
@@ -73,7 +73,7 @@ Types
     +-----------------------------+--------------------------------------------+---------------------------------------------+
     | College                     | College List                               | [c]_                                        | 
     +-----------------------------+--------------------------------------------+---------------------------------------------+
-    | Center List                 | [o]_ excpet ``Center``                     | Center                                      | 
+    | Center List                 | [s]_ excpet ``Center``                     | Center                                      | 
     +-----------------------------+--------------------------------------------+---------------------------------------------+
     | Center                      | Center List                                | [c]_                                        | 
     +-----------------------------+--------------------------------------------+---------------------------------------------+
@@ -82,8 +82,8 @@ Types
 
     .. [a] **Any type**.
     .. [-] **None**.
-    .. [c] **Common Types**: Activity, Announcement, Contatc Form Page, Contact Page, Event List, Form Page, News List, Page, Project List, Research List, Scholarship List, Seminar List, Workshop List.
-    .. [o] **Spatial Types**: Office, College, Unit, Center, Directorate
+    .. [c] **Common**: Activity, Announcement, Contatc Form Page, Contact Page, Event List, Form Page, News List, Page, Project List, Research List, Scholarship List, Seminar List, Workshop List.
+    .. [s] **Spatial**: Office, College, Unit, Center, Directorate
     .. [l] **LOCKED**
 
 
