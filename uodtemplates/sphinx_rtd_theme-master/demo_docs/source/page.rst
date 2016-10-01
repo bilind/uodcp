@@ -72,8 +72,19 @@ Types
 Fields
 ======
 
-``Title``
----------
-	The English (EN) title is required, without it the page can not be created. ``Title`` is also equired to auto-generate the ``Slug`` and the HTML ``Page title``.
+Content
+-------
 
-	.. image:: static/page_title.jpg
+	``Title``
+	`````````
+		The English (EN) title is required, without it the page can not be created. ``Title`` is also equired to auto-generate the ``Slug`` and the HTML ``Page title``.
+
+		.. image:: static/page_title.jpg
+
+
+	``Body``
+	`````````
+		The page contents. You can insert multimedia objects, like images, videos and documents.
+
+		.. image:: static/page_body.jpg
+
