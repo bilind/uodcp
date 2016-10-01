@@ -125,11 +125,10 @@ Content
 
 	Unlimited number of images can be added to the page. Supported formats are ``.jpg`` and ``.png``. Maximum file size is **10MB**. 
 
-	.. image:: static/page_content_images.jpg
-
-|
 	.. tip::
 		Images can be links to pages or external web pages. Use ``Link page`` or ``External Link`` for the purpose.
+
+	.. image:: static/page_content_images.jpg
 
 
 ----------
