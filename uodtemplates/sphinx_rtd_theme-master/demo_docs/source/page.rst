@@ -82,18 +82,23 @@ Content
 
 	.. image:: static/page_content_title.jpg
 
+.. tip::
+    If you don't have the English translation for your article title, just paste in the available one (Arabic or Kurdish).
+
+
 
 ``Body``
 ````````
 
-	The page content. You can insert text, images, videos and documents.
+	The page content. Text, images, videos and documents can be inserted.
 
 	.. image:: static/page_content_body.jpg
+
 
 
 ``Images``
 ``````````
 
-	Single or multiple images can be uploaded. Supported formats are **``.jpg``** and **``.png``**. Maximum file size is **10MB**. 
+	Unlimited images can be added to the page. Supported formats are ``.jpg`` and ``.png``. Maximum file size is **10MB**. 
 
 	.. image:: static/page_content_images.jpg
