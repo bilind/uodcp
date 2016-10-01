@@ -8,6 +8,6 @@ The inner structure of the UoD website follows a hierarchy routine. Except the h
 
 .. image:: static/structure.jpg
 
-Pages
+Page
 -----
-..............
+Page is the basic units of the UoD website infrastructure. Every content in the system is a page.  
