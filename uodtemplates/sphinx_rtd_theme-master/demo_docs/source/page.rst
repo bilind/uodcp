@@ -154,16 +154,15 @@ Promote
 
 HomePage
 ````````
+.. image:: static/page_prmote_homepage.jpg
+    :target: _images/page_promote_homepage.jpg
 
 ``Slideshow Request``
 `````````````````````
     Ticking this will notify the admin to approve the content and get displayed on the homepage slideshow.
 
-    .. image:: static/page_prmote_homepage.jpg
-        :target: _images/page_promote_homepage.jpg
-
 .. warning::
-    Choose an appropriate picture for the slideshow. Follow these intrsuctions.
+    Choose an appropriate picture for the slideshow. Follow these intrsuctions_.
 .. _instructions: http://www.google.com 
 
 
