@@ -3,12 +3,12 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-=================================================
+===============================
 UoD Control Panel Documentation
-=================================================
+===============================
 
 :Page Status: Incomplete
-:Last Reviewed: 2016-09-28
+:Last Reviewed: 2016-10-02
 
 .. image:: static/dashboard.jpg
 
