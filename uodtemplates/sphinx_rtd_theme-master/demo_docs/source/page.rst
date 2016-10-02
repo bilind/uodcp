@@ -160,12 +160,26 @@ HomePage
 
 ``Slideshow Request``
 `````````````````````
-    Ticking this will notify the admin to approve the content and get displayed on the homepage slideshow.
+    Ticking this will notify the super admin to approve the content and get displayed on the homepage slideshow.
+
+    .. image:: static/page_promote_homepage_slideshow.jpg
+        :target: _images/page_promote_homepage_slideshow.jpg
 
 .. warning::
     Choose an appropriate picture for the article. The first image you add will be used in the slideshow. Take a look at the **image spesifications policy**.
 
 
 ``Breaking News Request``
-`````````````````````
-    Ticking this will notify the admin to approve the content and get displayed on the homepage slideshow.
+`````````````````````````
+    Ticking this will notify the super admin to approve the content and get displayed on the homepage breaking news bar. 
+
+    .. image:: static/page_promote_homepage_breakingnews.jpg
+        :target: _images/page_promote_homepage_breakingnews.jpg    
+
+
+``HomePage Body Request``
+`````````````````````````
+    Ticking this will notify the super admin to approve the content and get displayed on the homepage "Top Stories" section. 
+
+    .. image:: static/page_promote_homepage_body.jpg
+        :target: _images/page_promote_homepage_body.jpg
