@@ -162,8 +162,7 @@ HomePage
     Ticking this will notify the admin to approve the content and get displayed on the homepage slideshow.
 
 .. warning::
-    Choose an appropriate picture for the slideshow. Follow these intrsuctions_.
-.. _instructions: http://www.google.com 
+    Choose an appropriate picture for the slideshow. Follow these `intrsuctions<http://www.google.com>`_. 
 
 
 ----------
