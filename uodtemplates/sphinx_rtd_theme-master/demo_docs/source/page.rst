@@ -163,7 +163,7 @@ HomePage
         :target: _images/page_promote_homepage.jpg
 
 .. warning::
-    Choose an appropriate picture for the slideshow. Follow these _intrsuctions.
+    Choose an appropriate picture for the slideshow. Follow these intrsuctions_.
 .. _instructions: http://www.google.com 
 
 
