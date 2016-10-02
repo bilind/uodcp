@@ -154,9 +154,18 @@ Promote
 
 HomePage
 ````````
-.. image:: static/page_prmote_homepage.jpg
+.. image:: static/page_promote_homepage.jpg
     :target: _images/page_promote_homepage.jpg
 
+
 ``Slideshow Request``
+`````````````````````
+    Ticking this will notify the admin to approve the content and get displayed on the homepage slideshow.
+
+.. warning::
+    Choose an appropriate picture for the article. The first image you add will be used in the slideshow. Take a look at the **image spesifications policy**.
+
+
+``Breaking News Request``
 `````````````````````
     Ticking this will notify the admin to approve the content and get displayed on the homepage slideshow.
