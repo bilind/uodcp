@@ -4,11 +4,11 @@ Page
 
 Types
 =====
-	
-	Pages are classified into types to meet different aspects. They are:
+    
+    Pages are classified into types to meet different aspects. They are:
 
-	.. note::
-		Types ending with "list" are just containers for the types with the preceding word. For example, ``Activity List`` page has to be added as a parent of the subsequent ``Activity`` pages.
+    .. note::
+        Types ending with "list" are just containers for the types with the preceding word. For example, ``Activity List`` page has to be added as a parent of the subsequent ``Activity`` pages.
 
     +-----------------------------+--------------------------------------------+---------------------------------------------+
     |   Type                      |     Allowed Parent Type                    |      Allowed Child Type                     |
@@ -97,10 +97,10 @@ Content
 ``Title``
 `````````
 
-	The ``title`` is required (at least in English (EN)), without it the page can not be created. ``Title`` is also equired for auto-generating the ``Slug`` and the HTML ``Page title``.
+    The ``title`` is required (at least in English (EN)), without it the page can not be created. ``Title`` is also equired for auto-generating the ``Slug`` and the HTML ``Page title``.
 
-	.. image:: static/page_content_title.jpg
-	   :target: _images/page_content_title.jpg
+    .. image:: static/page_content_title.jpg
+       :target: _images/page_content_title.jpg
 
 .. tip::
     If you don't have the English translation of your article title, just paste in the available one (Arabic or Kurdish).
@@ -112,7 +112,7 @@ Content
 ``Body``
 ````````
 
-	The page content can have text, images, videos and documents.
+    The page content can have text, images, videos and documents.
 
     .. image:: static/page_content_body.jpg
         :target: _images/page_content_body.jpg
@@ -124,10 +124,10 @@ Content
 ``Images``
 ``````````
 
-	Unlimited number of images can be added to the page. Supported formats are ``.jpg`` and ``.png``. Maximum file size is **10MB**. 
+    Unlimited number of images can be added to the page. Supported formats are ``.jpg`` and ``.png``. Maximum file size is **10MB**. 
 
-	.. tip::
-		Images can link to pages or external web pages. Use ``Link page`` or ``External Link`` for this purpose.
+    .. tip::
+        Images can link to pages or external web pages. Use ``Link page`` or ``External Link`` for this purpose.
 
     .. image:: static/page_content_images.jpg
         :target: _images/page_content_images.jpg
@@ -139,9 +139,9 @@ Content
 ``Related Links``
 `````````````````
 
-	You may find it useful sometimes to add some related content links for the reader. Number of links are unlimited.
+    You may find it useful sometimes to add some related content links for the reader. Number of links are unlimited.
 
-	.. image:: static/page_content_relatedlinks.jpg
+    .. image:: static/page_content_relatedlinks.jpg
         :target: _images/page_content_relatedlinks.jpg
 
 
@@ -160,9 +160,3 @@ HomePage
 ``Slideshow Request``
 `````````````````````
     Ticking this will notify the admin to approve the content and get displayed on the homepage slideshow.
-
-.. warning::
-    Choose an appropriate picture for the slideshow. Follow these `intrsuctions<http://www.google.com>`_. 
-
-
-----------
