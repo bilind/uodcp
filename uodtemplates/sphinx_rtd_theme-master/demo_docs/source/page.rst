@@ -166,7 +166,9 @@ HomePage
         :target: _images/page_promote_homepage_slideshow.jpg
 
 .. warning::
-    Choose an appropriate picture for the article. The first image you add will be used in the slideshow. Take a look at the **image spesifications policy**.
+    Be careful. Choosing inappropriate content may cause denial.
+
+    The first image added, to the article, is used for the slideshow. Invalid images will be rejected. Please take a look at the **image specifications policy**.
 
 
 ``Breaking News Request``
