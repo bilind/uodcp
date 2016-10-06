@@ -21,11 +21,11 @@ Contents:
     principles
     sample
 
-.. toctree::
-    :maxdepth: 2
-    :caption: Page    
-    
-    types
-    content
-    promote
+  .. toctree::
+      :maxdepth: 2
+      :caption: Page    
+      
+      types
+      content
+      promote
     
