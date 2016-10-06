@@ -115,8 +115,10 @@ Listing
     .. image:: static/departments_listingorder.jpg
         :target: _images/departments_listingorder.jpg
 
+
     .. image:: static/members_listingorder.jpg
         :target: _images/members_listingorder.jpg
+
 
     .. note::
         Ordering starts from the minimum value and goes down with the increase of the value. So, zero (0) is on the top, (1) one is the next and so on.
