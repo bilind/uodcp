@@ -214,7 +214,7 @@ Side Menu
         * **Default Value**: Unchecked.
 
 ``Sidemenu Order``
-````````````````````
+------------------
     The order of the page link among its siblings on the same menu level.  
         * **Type**: Integer.
         * **Default Value**: 0.
