@@ -1,5 +1,5 @@
-Page: Promote Tab
-=================
+Promote Tab
+===========
 
 HomePage
 --------

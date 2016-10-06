@@ -1,5 +1,5 @@
-Pages: Types
-============
+Types
+=====
     
     Pages are classified into types to meet different aspects. They are:
 

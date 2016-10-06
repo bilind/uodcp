@@ -19,7 +19,6 @@ Contents:
     :caption: Principles
 
     principles
-    page
     sample
 
 .. toctree::

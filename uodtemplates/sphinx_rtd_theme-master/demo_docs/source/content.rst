@@ -1,5 +1,5 @@
-Page: Content Tab
-=================
+Content Tab
+===========
 
 ``Title``
 ---------
