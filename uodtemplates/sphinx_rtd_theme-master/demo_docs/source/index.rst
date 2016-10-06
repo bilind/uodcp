@@ -19,7 +19,6 @@ Contents:
     :caption: Principles
 
     principles
-    sample
 
 .. toctree::
     :maxdepth: 2
