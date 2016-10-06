@@ -161,7 +161,9 @@ HomePage
 ``Slideshow Request``
 `````````````````````
     Ticking this notifies the super admin to approve the content and get displayed on the homepage slideshow.
-
+        * **Type**: Check Box. 
+        * **Default Value**: Unchecked.
+    
     .. image:: static/page_promote_homepage_slideshow.jpg
         :target: _images/page_promote_homepage_slideshow.jpg
 
@@ -173,7 +175,9 @@ HomePage
 
 ``Breaking News Request``
 `````````````````````````
-    Ticking this notifies the super admin to approve the content and get displayed on the homepage breaking news bar. 
+    Ticking this notifies the super admin to approve the content and get displayed on the homepage breaking news bar.
+        * **Type**: Check Box. 
+        * **Default Value**: Unchecked.
 
     .. image:: static/page_promote_homepage_breakingnews.jpg
         :target: _images/page_promote_homepage_breakingnews.jpg    
@@ -182,6 +186,9 @@ HomePage
 ``HomePage Body Request``
 `````````````````````````
     Ticking this notifies the super admin to approve the content and get displayed on the homepage "Top Stories" section. 
+        * **Type**: Check Box. 
+        * **Default Value**: Unchecked.
+
 
     .. image:: static/page_promote_homepage_body.jpg
         :target: _images/page_promote_homepage_body.jpg
@@ -195,6 +202,7 @@ Side Menu
 
 ``Sidemenu``
 ````````````
-    Display or hide the side menu on the page. 
-
+    Display or hide the side menu on the page.
+        * **Type**: Check Box. 
+        * **Default Value**: Checked.
 
