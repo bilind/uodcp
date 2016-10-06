@@ -185,3 +185,16 @@ HomePage
 
     .. image:: static/page_promote_homepage_body.jpg
         :target: _images/page_promote_homepage_body.jpg
+
+
+Side Menu
+`````````
+.. image:: static/page_promote_sidemenu.jpg
+    :target: _images/page_promote_sidemenu.jpg
+
+
+``Sidemenu``
+````````````
+    Display or hide the side menu on the page. 
+
+
