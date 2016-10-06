@@ -202,7 +202,7 @@ Side Menu
 
 ``Sidemenu``
 ````````````
-    Display or hide the side menu on the page.
+    Displays or hides the side menu on the page.
         * **Type**: Check Box. 
         * **Default Value**: Checked.
 
