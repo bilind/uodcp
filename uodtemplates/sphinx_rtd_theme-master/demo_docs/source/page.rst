@@ -209,7 +209,7 @@ Side Menu
 
 ``Show in sidemenu``
 ````````````````````
-    Adds the link for the page in the sidemenu as an item. 
+    Adds the link of the page as an item in the sidemenu. 
         * **Type**: Check Box. 
         * **Default Value**: Unchecked.
 
