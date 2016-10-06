@@ -220,7 +220,7 @@ Side Menu
         * **Default Value**: 0.
 
     .. note::
-        Ordering starts from the minimum value and comes down with the increase of the order value. So, zero (0) is on the top, (1) one is the next and so on.
+        Ordering starts from the minimum value and goes down with the increase of the value. So, zero (0) is on the top, (1) one is the next and so on.
 
     .. tip::
         For a more dynamic approach, put the value (0) for the first item, and (10) for the second, (20) for the third and so on. In this way you'll save some places for the new outcome items, to be inserted between, as needed. 
