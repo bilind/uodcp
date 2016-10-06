@@ -112,8 +112,8 @@ Listing
         * **Type**: Integer.
         * **Default Value**: 0.
 
-    .. image:: static/departments_listing.jpg
-        :target: _images/departments_listing.jpg
+    .. image:: static/departments_listingorder.jpg
+        :target: _images/departments_listingorder.jpg
 
     .. image:: static/members_listingorder.jpg
         :target: _images/members_listingorder.jpg
