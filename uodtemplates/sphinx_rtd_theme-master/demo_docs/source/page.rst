@@ -206,3 +206,31 @@ Side Menu
         * **Type**: Check Box. 
         * **Default Value**: Checked.
 
+
+``Show in sidemenu``
+````````````````````
+    Adds the link for the page in the sidemenu as an item. 
+        * **Type**: Check Box. 
+        * **Default Value**: Unchecked.
+
+``Sidemenu Order``
+````````````````````
+    The order of the page link among its siblings on the same menu level.  
+        * **Type**: Integer.
+        * **Default Value**: 0.
+
+.. note::
+    Ordering starts from the minimum value and comes down with the increase of the order value. So, zero (0) is on the top, (1) one is the next and so on.
+
+.. tip::
+    For a more dynamic approach, put the value (0) for the first item, and (10) for the second, (20) for the third and so on. In this way you'll save some places for the new outcome items, to be inserted between, as needed. 
+
+.. note::
+    Similar values are handled on the basis of alphabetical order.
+
+
+``Sidemenu Parent``
+```````````````````
+    Each page has a parent. But if you want to change it in the side menu you can replace it here.  
+        * **Type**: Page.
+        * **Default Value**: Null.
