@@ -2,9 +2,9 @@
 Page
 ====
 
-=====
+-----
 Types
-=====
+-----
     
     Pages are classified into types to meet different aspects. They are:
 
@@ -88,9 +88,9 @@ Types
     .. [l] **LOCKED**
 
 
-===========
+-----------
 Content Tab
-===========
+-----------
 
 
 ``Title``
@@ -144,9 +144,9 @@ Content Tab
         :target: _images/page_content_relatedlinks.jpg
 
 
-===========
+-----------
 Promote Tab
-===========
+-----------
 
 HomePage
 --------
