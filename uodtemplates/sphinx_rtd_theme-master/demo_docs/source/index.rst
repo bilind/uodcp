@@ -15,16 +15,9 @@ UoD Control Panel Documentation
 Contents:
 
 .. toctree::
-    :maxdepth: 2
+    :maxdepth: 3
     :caption: Principles
 
     principles
-
-.. toctree::
-    :maxdepth: 2
-    :caption: Page    
-    
-    types
-    content
-    promote
+    page
     

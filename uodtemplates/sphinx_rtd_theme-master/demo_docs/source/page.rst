@@ -2,6 +2,7 @@
 Page
 ====
 
+=====
 Types
 =====
     
@@ -73,7 +74,7 @@ Types
     +-----------------------------+--------------------------------------------+---------------------------------------------+
     | College                     | College List                               | [c]_                                        | 
     +-----------------------------+--------------------------------------------+---------------------------------------------+
-    | Center List                 | [s]_ excpet ``Center``                     | Center                                      | 
+    | Center List                 | [s]_ except ``Center``                     | Center                                      | 
     +-----------------------------+--------------------------------------------+---------------------------------------------+
     | Center                      | Center List                                | [c]_                                        | 
     +-----------------------------+--------------------------------------------+---------------------------------------------+
@@ -87,15 +88,13 @@ Types
     .. [l] **LOCKED**
 
 
+===========
+Content Tab
+===========
 
-Fields
-======
-
-Content
--------
 
 ``Title``
-`````````
+---------
 
     The ``title`` is required (at least in English (EN)), without it the page can not be created. ``Title`` is also equired for auto-generating the ``Slug`` and the HTML ``Page title``.
 
@@ -110,7 +109,7 @@ Content
 
 
 ``Body``
-````````
+--------
 
     The page content can have text, images, videos and documents.
 
@@ -122,7 +121,7 @@ Content
 
 
 ``Images``
-``````````
+----------
 
     Unlimited number of images can be added to the page. Supported formats are ``.jpg`` and ``.png``. Maximum file size is **10MB**. 
 
@@ -137,7 +136,7 @@ Content
 
 
 ``Related Links``
-`````````````````
+-----------------
 
     You may find it useful sometimes to add some related content links for the reader. Number of links are unlimited.
 
@@ -145,18 +144,16 @@ Content
         :target: _images/page_content_relatedlinks.jpg
 
 
-----------
-
-
-
-Promote
--------
+===========
+Promote Tab
+===========
 
 HomePage
-````````
+--------
 .. image:: static/page_promote_homepage.jpg
     :target: _images/page_promote_homepage.jpg
 
+----------
 
 ``Slideshow Request``
 `````````````````````
@@ -172,6 +169,7 @@ HomePage
 
     The first image added, to the article, is used for the slideshow. Invalid images will be rejected. Please take a look at the **image specifications policy**.
 
+----------
 
 ``Breaking News Request``
 `````````````````````````
@@ -182,6 +180,7 @@ HomePage
     .. image:: static/page_promote_homepage_breakingnews.jpg
         :target: _images/page_promote_homepage_breakingnews.jpg    
 
+----------
 
 ``HomePage Body Request``
 `````````````````````````
@@ -194,11 +193,15 @@ HomePage
         :target: _images/page_promote_homepage_body.jpg
 
 
+----------
+
 Side Menu
-`````````
+---------
 .. image:: static/page_promote_sidemenu.jpg
     :target: _images/page_promote_sidemenu.jpg
 
+
+----------
 
 ``Sidemenu``
 ````````````
@@ -206,12 +209,15 @@ Side Menu
         * **Type**: Check Box. 
         * **Default Value**: Checked.
 
+----------
 
 ``Show in sidemenu``
 ````````````````````
     Adds the link of the page as an item in the sidemenu. 
         * **Type**: Check Box. 
         * **Default Value**: Unchecked.
+
+----------
 
 ``Sidemenu Order``
 ``````````````````
@@ -228,9 +234,44 @@ Side Menu
     .. note::
         Similar values are handled on the basis of alphabetical order.
 
+----------
 
 ``Sidemenu Parent``
 ```````````````````
     Each page has a parent. But if you want to change it in the side menu you can replace it here.  
         * **Type**: Page.
         * **Default Value**: Null.
+
+----------
+
+Listing
+-------
+
+.. image:: static/page_promote_listing.jpg
+    :target: _images/page_promote_listing.jpg
+
+----------
+
+
+``Listing order``
+```````````````````
+    The order of the page link among its siblings in the listing page. For example, list of members.  
+        * **Type**: Integer.
+        * **Default Value**: 0.
+
+    .. image:: static/departments_listingorder.jpg
+        :target: _images/departments_listingorder.jpg
+
+
+    .. image:: static/members_listingorder.jpg
+        :target: _images/members_listingorder.jpg
+
+
+    .. note::
+        Ordering starts from the minimum value and goes down with the increase of the value. So, zero (0) is on the top, (1) one is the next and so on.
+
+    .. tip::
+        For a more dynamic approach, put the value (0) for the first item, and (10) for the second, (20) for the third and so on. In this way you'll save some places for the new outcome items, to be inserted between, as needed. 
+
+    .. note::
+        Similar values are handled on the basis of alphabetical order.
