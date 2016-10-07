@@ -261,11 +261,11 @@ Listing
 
     .. image:: static/departments_listingorder.jpg
         :target: _images/departments_listingorder.jpg
-
+    **Example 1: List of Departments**
 
     .. image:: static/members_listingorder.jpg
         :target: _images/members_listingorder.jpg
-
+    **Example 2: List of Academic Memebers**    
 
     .. note::
         Ordering starts from the minimum value and goes down with the increase of the value. So, zero (0) is on the top, (1) one is the next and so on.
