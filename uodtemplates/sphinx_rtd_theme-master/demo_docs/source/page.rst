@@ -283,13 +283,55 @@ Common
 
 
 ``Title``
-```````````````````
-    The page title as you'd like it to be seen by the public  
+`````````
+    This field is the same as the English title  
         * **Type**: String.
-        * **Default Value**: Auto-generated from the English title.
+        * **Default Value**: Automatically generated from the English title.
+
+
 
 ``Slug``
-```````````````````
-    The name of the page as it will appear in URLs e.g "http://web.uod.ac/[slug]/".
+````````
+     The last part of the web address for the page. E.g. the slug for a blog page called ‘The best things on the web’ would be the-best-things-on-the-web (web.uod.ac/the-best-things-on-the-web). This is automatically generated from the English title set in the Content tab. This can be overridden by adding a new slug into the field. Slugs should be entirely lowercase, with words separated by hyphens (-).
         * **Type**: String.
-        * **Default Value**: Auto-generated.
+        * **Default Value**: Automatically generated from the English title.
+
+        .. warning::
+            Slugs should be entirely lowercase, with words separated by hyphens (-).
+
+
+``Page Title``
+``````````````
+    An optional, search-engine friendly page title. This is the title that appears in the tab of your browser window. It is also the title that would appear in a search engine if the page was returned as part of a set of search results. 
+        * **Type**: String.
+        * **Default Value**: Automatically generated from the English title.
+
+
+``Search Description``
+``````````````````````
+    This field allows you to add text that will be displayed if the page appears in search results. This is especially useful to distinguish between similarly named pages. 
+        * **Type**: String.
+        * **Default Value**: Automatically generated from the English title.
+
+
+``Exclude from the search``
+```````````````````````````
+    Ticking this will hide this page from the search result. This is useful for incompleted or private pages.  
+        * **Type**: Check Box.
+        * **Default Value**: Unchecked.
+
+
+``Redirect Page URL``
+`````````````````````
+    Once you fill up this field, tha page will eventually turned into a simple link. This is a handy option for adding an external/direct link to the menus.
+        * **Type**: URL.
+        * **Default Value**: Null.
+
+    .. note::
+        The system totally ignores the other page fields (except the ``Title``) when the value of this field is set.
+
+``Open in``
+```````````
+    This is belong to the ``Redirect Page URL`` field. You have the option to open the link in the same window or a new window.
+        * **Type**: Select field.
+        * **Default Value**: 'Same Window'.        
