@@ -153,6 +153,11 @@ HomePage
 .. image:: static/page_promote_homepage.jpg
     :target: _images/page_promote_homepage.jpg
 
+
+.. image:: static/page_promote_homepage_all.jpg
+    :target: _images/page_promote_homepage_all.jpg
+
+
 ----------
 
 ``Slideshow Request``
@@ -160,9 +165,6 @@ HomePage
     Ticking this notifies the super admin to approve the content and get displayed on the homepage slideshow.
         * **Type**: Check Box. 
         * **Default Value**: Unchecked.
-    
-    .. image:: static/page_promote_homepage_slideshow.jpg
-        :target: _images/page_promote_homepage_slideshow.jpg
 
 .. warning::
     Be careful. Choosing inappropriate content may cause denial.
@@ -175,10 +177,7 @@ HomePage
 `````````````````````````
     Ticking this notifies the super admin to approve the content and get displayed on the homepage breaking news bar.
         * **Type**: Check Box. 
-        * **Default Value**: Unchecked.
-
-    .. image:: static/page_promote_homepage_breakingnews.jpg
-        :target: _images/page_promote_homepage_breakingnews.jpg    
+        * **Default Value**: Unchecked. 
 
 ----------
 
@@ -187,11 +186,6 @@ HomePage
     Ticking this notifies the super admin to approve the content and get displayed on the homepage "Top Stories" section. 
         * **Type**: Check Box. 
         * **Default Value**: Unchecked.
-
-
-    .. image:: static/page_promote_homepage_body.jpg
-        :target: _images/page_promote_homepage_body.jpg
-
 
 ----------
 
@@ -275,3 +269,27 @@ Listing
 
     .. note::
         Similar values are handled on the basis of alphabetical order.
+
+
+----------
+
+Common
+-------
+
+.. image:: static/page_promote_common.jpg
+    :target: _images/page_promote_common.jpg
+
+----------
+
+
+``Title``
+```````````````````
+    The page title as you'd like it to be seen by the public  
+        * **Type**: String.
+        * **Default Value**: Auto-generated from the English title.
+
+``Slug``
+```````````````````
+    The name of the page as it will appear in URLs e.g "http://web.uod.ac/[slug]/".
+        * **Type**: String.
+        * **Default Value**: Auto-generated.
