@@ -323,7 +323,7 @@ Common
 
 ``Redirect Page URL``
 `````````````````````
-    Once you fill up this field, tha page will eventually turned into a simple link. This is a handy option for adding an external/direct link to the menus.
+    Once you fill up this field, tha page will eventually turned into a simple link. This comes in handy when adding an external/direct link to the menus.
         * **Type**: URL.
         * **Default Value**: Null.
 
@@ -332,6 +332,6 @@ Common
 
 ``Open in``
 ```````````
-    This is belong to the ``Redirect Page URL`` field. You have the option to open the link in the same window or a new window.
+    This is belong to the ``Redirect Page URL`` field. You have the option whether to open the link in the same window or in a new one.
         * **Type**: Select field.
         * **Default Value**: 'Same Window'.        
